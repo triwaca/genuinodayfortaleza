@@ -7,22 +7,22 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
+      name: "Genuino Day Fortaleza 2016",
       description: "Conference description",
-      date: "November 15",
+      date: "2 de Abril de 2016",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
+      //price: "$100",
+      venue: "Faculdade 7 de Setembro & Casa de Cultura Digital de Fortaleza",
       address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      city: "Fortaleza",
+      state: "Ceará"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Vagas Limitadas! Registre-se agora!",
+        link: "http://even.tc/arduino-day-2016-fortaleza"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -47,25 +47,25 @@ module.exports = {
       'schedule',
       'sponsors',
       'partners'
-      // 'contact'
+      'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre",
+      location: "Locais",
+      speakers: "Palestrantes",
+      schedule: "Agenda",
+      sponsors: "Patrocinadores",
+      partners: "Apoios",
+      contact: "Contato"
     },
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        name: "Registro de inscritos",
+        time: "8h30"
       },
       {
         name: "Linus Torvalds",
